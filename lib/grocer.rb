@@ -27,6 +27,7 @@ def consolidate_cart(cart)
       target_element[:count] += 1 
     else 
       element[:count] = 1 
+      result_array << 
   end
 
 end
