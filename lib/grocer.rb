@@ -24,7 +24,9 @@ def consolidate_cart(cart)
   cart.each do |element|
     target_element = find_item_by_name_in_collection(element[:item], result_array)
     if target_element 
-      
+      target_element[:count] += 1 
+    else 
+      element[:count] = 1 
   end
 
 end
