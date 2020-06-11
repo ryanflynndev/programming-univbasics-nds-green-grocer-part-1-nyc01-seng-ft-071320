@@ -30,7 +30,7 @@ def consolidate_cart(cart)
       result_array << element
     end
   end
-
+  return result_array
 end
 
 
