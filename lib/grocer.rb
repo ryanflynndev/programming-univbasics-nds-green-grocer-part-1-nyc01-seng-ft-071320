@@ -21,7 +21,6 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   
   result_array = []
-  count = 1
   cart.each do |element|
     
 
