@@ -22,7 +22,7 @@ def consolidate_cart(cart)
   
   result_array = []
   cart.each do |element|
-    
+    target_element = 
 
   end
 
